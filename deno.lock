@@ -3,6 +3,7 @@
   "specifiers": {
     "jsr:@std/assert@1": "1.0.6",
     "jsr:@std/internal@^1.0.4": "1.0.4",
+    "npm:@types/geojson@^7946.0.14": "7946.0.14",
     "npm:shpjs@^6.1.0": "6.1.0"
   },
   "jsr": {
@@ -17,6 +18,9 @@
     }
   },
   "npm": {
+    "@types/geojson@7946.0.14": {
+      "integrity": "sha512-WCfD5Ht3ZesJUsONdhvm84dmzWOiOzOAqOncN0++w0lBw1o8OuDNJF2McvvCef/yBqb/HYRahp1BYtODFQ8bRg=="
+    },
     "but-unzip@0.1.4": {
       "integrity": "sha512-Q5/55MTk0PHjxtYyZBbhIVMJP0+FNc/AOKBrrnqaxnbJR4I7w+R4CMRNYMxUQrKmCLrih7D1p4/nwZHMn7IToA=="
     },
@@ -48,6 +52,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@1",
+      "npm:@types/geojson@^7946.0.14",
       "npm:shpjs@^6.1.0"
     ]
   }

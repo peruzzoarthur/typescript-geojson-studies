@@ -2,5 +2,9 @@
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
-  "imports": { "shpjs": "npm:shpjs@^6.1.0", "@std/assert": "jsr:@std/assert@1" }
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "shpjs": "npm:shpjs@^6.1.0",
+    "types-geojson": "npm:@types/geojson@^7946.0.14"
+  }
 }
